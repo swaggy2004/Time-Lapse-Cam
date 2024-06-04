@@ -25,7 +25,7 @@ try:
         time_stamp = str(getTime())
         print('Taking image...')
         camera.capture(f'/home/shaveen/Pictures/Timelaps/{time_stamp}.jpg')
-        sleep(30)
+        sleep(15)
 except Exception as e:
     camera.stop_preview()
     print(f'Exit due to erro: {e}')
